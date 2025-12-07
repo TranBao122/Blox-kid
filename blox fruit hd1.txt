@@ -9343,9 +9343,10 @@ local notificationCooldown = 10
 local currentTime = tick()
 if currentTime - lastNotificationTime >= notificationCooldown then
     game.StarterGui:SetCore("SendNotification", {
-        Title = "?",
+        Title = "Eclyon",
         Text = "Done",
         Duration = 1
     })
     lastNotificationTime = currentTime
+
 end
